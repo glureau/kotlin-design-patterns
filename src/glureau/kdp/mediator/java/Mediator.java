@@ -2,7 +2,7 @@ package glureau.kdp.mediator.java;
 
 public interface Mediator {
 	
-	public void teamGreet();
+	void teamGreet();
 	
-	public void broadcastGreet();
+	void broadcastGreet();
 }

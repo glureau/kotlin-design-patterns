@@ -20,10 +20,7 @@ public abstract class AbstractClass {
 	}
 	
 	private boolean validIntegrationInterval(double lowerBoundary, double upperBoundary){
-		if(lowerBoundary <= upperBoundary){
-			return true;
-		}
-		return false;
+		return lowerBoundary <= upperBoundary;
 	}
 	
 	/**

@@ -11,18 +11,18 @@ public interface AbstractBuilder {
 	 * 
 	 * Builds part A of the product
 	 */
-	public void buildPartA();
+	void buildPartA();
 
 	/**
 	 * 
 	 * Builds part B of the product
 	 */
-	public void buildPartB();
+	void buildPartB();
 	
 	/**
 	 * 
 	 * Returns the complete instance of the product
 	 */
-	public Product getProduct();
+	Product getProduct();
 
 }

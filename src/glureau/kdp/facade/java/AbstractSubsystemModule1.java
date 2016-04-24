@@ -6,7 +6,7 @@ package glureau.kdp.facade.java;
  */
 public interface AbstractSubsystemModule1 {
 	
-	public String getName();
+	String getName();
 	
-	public int getYearOfBirth();
+	int getYearOfBirth();
 }

@@ -5,17 +5,17 @@ package glureau.kdp.observer.java;
  */
 public interface Subject {
 	
-	public void attach(Observer observer);
+	void attach(Observer observer);
 	
-	public void detach(Observer observer);
+	void detach(Observer observer);
 	
-	public void notifyObservers();
+	void notifyObservers();
 	
-	public String getJob();
+	String getJob();
 	
-	public void setJob(String newJob);
+	void setJob(String newJob);
 	
-	public double getSalary();
+	double getSalary();
 	
-	public void setSalary(double newSalary);
+	void setSalary(double newSalary);
 }

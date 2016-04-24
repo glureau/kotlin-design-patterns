@@ -7,6 +7,6 @@ import java.util.List;
  */
 public interface Strategy {
 	
-	public int findMinimum(List<Integer> numbers);
+	int findMinimum(List<Integer> numbers);
 	
 }

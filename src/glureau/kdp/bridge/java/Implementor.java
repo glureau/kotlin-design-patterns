@@ -5,7 +5,7 @@ package glureau.kdp.bridge.java;
  */
 public interface Implementor {
 	
-	public void openMouth();
+	void openMouth();
 	
-	public String tellName();
+	String tellName();
 }

@@ -5,5 +5,5 @@ package glureau.kdp.command.java;
  */
 public interface Command {
 	
-	public int execute(int number);
+	int execute(int number);
 }

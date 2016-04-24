@@ -7,7 +7,7 @@ public class ConcreteHandlerA extends Handler {
 	@Override
 	public void handleRequest(Request request) {
 		if(request instanceof MyRequestA){
-			List<String> params = ((MyRequestA) request).getParameters();
+			List<String> params = request.getParameters();
 			System.out.println("Request parameters are: " + params.get(0) +
 					", " + params.get(1) + ". Chain stops here.");
 			return;

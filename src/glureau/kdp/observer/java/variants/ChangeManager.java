@@ -10,10 +10,10 @@ import glureau.kdp.observer.java.Subject;
  */
 public interface ChangeManager {
 
-	public abstract void register(Subject subject, Observer observer);
+	void register(Subject subject, Observer observer);
 
-	public abstract void unregister(Subject subject, Observer observer);
+	void unregister(Subject subject, Observer observer);
 
-	public abstract void notifyObservers(Subject subject);
+	void notifyObservers(Subject subject);
 
 }

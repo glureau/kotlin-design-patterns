@@ -7,7 +7,7 @@ package glureau.kdp.decorator.java;
  */
 public interface AbstractComponent {
 	
-	public String getName();
+	String getName();
 	
-	public int getAge();
+	int getAge();
 }

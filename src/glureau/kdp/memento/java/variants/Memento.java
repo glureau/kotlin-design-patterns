@@ -6,5 +6,5 @@ package glureau.kdp.memento.java.variants;
  */
 public interface Memento {
 	
-	public void restoreState();
+	void restoreState();
 }

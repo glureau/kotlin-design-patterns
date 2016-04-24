@@ -6,5 +6,5 @@ package glureau.kdp.facade.java;
  */
 public interface AbstractFacade {
 	
-	public void greet();
+	void greet();
 }

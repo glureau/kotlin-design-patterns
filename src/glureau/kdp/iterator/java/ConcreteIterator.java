@@ -25,9 +25,6 @@ public class ConcreteIterator implements Iterator {
 	@Override
 	public boolean hasMore() {
 		Object item = iterable.getPlaceAtPosition(currentIndex);
-		if(item == null){
-			return false;
-		}
-		return true;
+		return item != null;
 	}
 }

@@ -4,11 +4,11 @@ import java.util.Collection;
 
 public interface Visitor {
 	
-	public void visit(Collection collection); 
+	void visit(Collection collection);
 	
-	public void visit(ConcreteElementA concreteElementA);
+	void visit(ConcreteElementA concreteElementA);
 	
-	public void visit(ConcreteElementB concreteElementB);
+	void visit(ConcreteElementB concreteElementB);
 	
-	public void visit(ConcreteElementC concreteElementC);
+	void visit(ConcreteElementC concreteElementC);
 }

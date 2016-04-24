@@ -19,8 +19,8 @@ public class Demo {
 			public String getSharedState() {
 				return "shy";
 			}
-		};
-		
+		}
+
 		AbstractFlyweight fly2 = new ShyFlyweight();
 		System.out.println("Registering: flyweights to the factory");
 		factory.registerFlyweight("concrete",fly1);

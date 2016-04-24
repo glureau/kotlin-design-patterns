@@ -15,6 +15,6 @@ public class Context {
 	}
 	
 	public boolean lookup(String varName) {
-		return ((Boolean)variableExpressions.get(varName)).booleanValue();
+		return variableExpressions.get(varName).booleanValue();
 	}
 }

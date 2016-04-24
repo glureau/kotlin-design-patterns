@@ -1,7 +1,5 @@
 package glureau.kdp.singleton.java;
 
-;
-
 public class Demo {
 	
 	public static void main(String[] args){

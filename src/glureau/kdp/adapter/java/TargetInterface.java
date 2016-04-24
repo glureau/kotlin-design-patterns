@@ -8,14 +8,14 @@ import java.util.List;
  */
 public interface TargetInterface {
 	
-	public List<Double> getOperands();
+	List<Double> getOperands();
 	
-	public double sum();
+	double sum();
 	
-	public double max();
+	double max();
 	
 	/**
 	 * This operation is not among Adaptee's ones
 	 */
-	public double multiply();
+	double multiply();
 }

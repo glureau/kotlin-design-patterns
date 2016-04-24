@@ -30,7 +30,7 @@ public class Demo {
 							}
 						};
 							
-					};
+					}
 				};
 		AbstractProduct product2 = extendedCreator.factoryMethod();
 		product2.feature();

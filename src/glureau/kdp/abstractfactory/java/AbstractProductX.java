@@ -7,6 +7,6 @@ package glureau.kdp.abstractfactory.java;
  */
 public interface AbstractProductX {
 	
-	public void feature();
+	void feature();
 
 }

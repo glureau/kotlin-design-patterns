@@ -8,6 +8,6 @@ package glureau.kdp.abstractfactory.java;
  *
  */
 public interface AbstractFactory {
-	public AbstractProductX createProductX();
-	public AbstractProductY createProductY();
+	AbstractProductX createProductX();
+	AbstractProductY createProductY();
 }

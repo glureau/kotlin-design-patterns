@@ -8,6 +8,6 @@ package glureau.kdp.factorymethod.java;
  */
 public interface AbstractProduct {
 	
-	public void feature();
+	void feature();
 
 }

@@ -22,8 +22,8 @@ public class Singleton {
 	 */
 	private Singleton(){
 		this.greet = "Hello, I am a Singleton";
-	};
-	
+	}
+
 	/**
 	 * 
 	 * This method returns the unique instance for Singleton type. The method

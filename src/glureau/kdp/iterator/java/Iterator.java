@@ -5,9 +5,9 @@ package glureau.kdp.iterator.java;
  */
 public interface Iterator {
 	
-	public Object first();
+	Object first();
 	
-	public Object next();
+	Object next();
 	
-	public boolean hasMore();
+	boolean hasMore();
 }

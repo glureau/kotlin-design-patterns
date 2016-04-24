@@ -6,5 +6,5 @@ package glureau.kdp.facade.java;
  */
 public interface AbstractSubsystemModule2 {
 		
-	public int computeAge(AbstractSubsystemModule1 module, int currentYear);
+	int computeAge(AbstractSubsystemModule1 module, int currentYear);
 }

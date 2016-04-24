@@ -6,5 +6,5 @@ package glureau.kdp.iterator.java;
  */
 public interface Aggregate {
 	
-	public Iterator iterator(String type);
+	Iterator iterator(String type);
 }

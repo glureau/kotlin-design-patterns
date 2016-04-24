@@ -17,7 +17,7 @@ public class WesternPlacesIterator implements Iterator {
 	
 	private int findFirstWesternPlace(){
 		for (int index = 0; index < iterable.size(); index++) {
-			Place place = (Place) iterable.getPlaceAtPosition(index);
+			Place place = iterable.getPlaceAtPosition(index);
 			if(isWestern(place)){
 				return index;
 			}
@@ -47,22 +47,16 @@ public class WesternPlacesIterator implements Iterator {
 	@Override
 	public boolean hasMore() {
 		Object item = iterable.getPlaceAtPosition(currentIndex);
-		if(item == null){
-			return false;
-		}
-		return true;
+		return item != null;
 	}
 	
 	private boolean isWestern(Place place){
-		if(place.getLongitude() < 0.0){
-			return true;
-		}
-		return false;
+		return place.getLongitude() < 0.0;
 	}
 	
 	private int findNextWesternPlace(){
 		for (int index = currentIndex + 1; index < iterable.size(); index++) {
-			Place place = (Place) iterable.getPlaceAtPosition(index);
+			Place place = iterable.getPlaceAtPosition(index);
 			if(isWestern(place)){
 				return index;
 			}

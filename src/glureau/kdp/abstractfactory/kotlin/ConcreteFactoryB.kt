@@ -7,7 +7,7 @@ package glureau.kdp.abstractfactory.kotlin
 internal class ConcreteFactoryB : AbstractFactory {
 
     override fun createProduct(): AbstractProduct {
-        println("Called: implementation of abstract factory; will return: ConcreteProductB instance")
+        println("Called: implementation of factory B; will return: ConcreteProductB instance")
         return ConcreteProductB()
     }
 }

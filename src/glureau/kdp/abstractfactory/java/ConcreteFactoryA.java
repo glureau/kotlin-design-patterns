@@ -8,7 +8,7 @@ class ConcreteFactoryA implements AbstractFactory {
 
 	@Override
 	public AbstractProduct createProduct() {
-		System.out.println("Called: implementation of abstract factory;  will return: ConcreteProductA instance");
+		System.out.println("Called: implementation of factory A;  will return: ConcreteProductA instance");
 		return new ConcreteProductA();
 	}
 }

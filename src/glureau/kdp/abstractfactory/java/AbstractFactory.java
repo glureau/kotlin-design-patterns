@@ -7,7 +7,6 @@ package glureau.kdp.abstractfactory.java;
  * returned with their asbtract interfaces. Modify it as needed!
  *
  */
-public interface AbstractFactory {
-	AbstractProductX createProductX();
-	AbstractProductY createProductY();
+interface AbstractFactory {
+	AbstractProduct createProduct();
 }

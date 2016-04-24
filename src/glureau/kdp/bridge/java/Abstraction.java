@@ -2,11 +2,11 @@ package glureau.kdp.bridge.java;
 
 /**
  * The abstract interface for the abstraction that must be able to vary 
- * indipendently from the correspondent implementation
+ * independently from the correspondent implementation
  */
-public abstract class Abstraction {
+abstract class Abstraction {
 	
-	public abstract void greet();
+	abstract void greet();
 	
-	public abstract void setImplementor(Implementor implementor);
+	abstract void setImplementor(Implementor implementor);
 }

@@ -4,11 +4,11 @@ package glureau.kdp.bridge.java;
  * Implements the operations stated in Implementor and that will be used by
  * the Abstraction subclasses
  */
-public class ConcreteImplementor implements Implementor {
+class ConcreteImplementor implements Implementor {
 	
 	private String name;
 
-	public ConcreteImplementor(String name) {
+	ConcreteImplementor(String name) {
 		this.name = name;
 	}
 

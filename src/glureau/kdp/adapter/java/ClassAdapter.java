@@ -7,6 +7,7 @@ import java.util.List;
  * This is the Adapter class: it subclasses the Adaptee and also implements
  * the TargetInterface that is expected by the clients. In this case, adaptation
  * is achieved through inheritance.
+ * This is possible only if Adaptee is non-final.
  */
 class ClassAdapter extends Adaptee implements TargetInterface {
 

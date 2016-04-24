@@ -5,24 +5,24 @@ package glureau.kdp.bridge.java;
  * stated by Abstract are implemented using the base operations provided by
  * the encapsulated Implementor object 
  */
-public class RefinedAbstraction extends Abstraction {
+class RefinedAbstraction extends Abstraction {
 	
 	private Implementor implementor;
 	
-	public RefinedAbstraction() {
+	RefinedAbstraction() {
 		this.implementor = new ConcreteImplementor("Sarah");
 	}
 	
-	public RefinedAbstraction(Implementor implementor) {
+	RefinedAbstraction(Implementor implementor)1 {
 		this.implementor = implementor;
 	}
-	
-	public void setImplementor(Implementor implementor){
+
+	void setImplementor(Implementor implementor){
 		this.implementor = implementor;
 	}
 
 	@Override
-	public void greet() {
+	void greet() {
 		implementor.openMouth();
 		String name = implementor.tellName();
 		System.out.println("Hello my name is "+name);

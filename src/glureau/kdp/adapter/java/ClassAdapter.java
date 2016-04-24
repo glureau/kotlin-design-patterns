@@ -8,9 +8,9 @@ import java.util.List;
  * the TargetInterface that is expected by the clients. In this case, adaptation
  * is achieved through inheritance.
  */
-public class ClassAdapter extends Adaptee implements TargetInterface {
+class ClassAdapter extends Adaptee implements TargetInterface {
 
-	public ClassAdapter(double operand1, double operand2) {
+	ClassAdapter(double operand1, double operand2) {
 		super(operand1, operand2);
 	}
 

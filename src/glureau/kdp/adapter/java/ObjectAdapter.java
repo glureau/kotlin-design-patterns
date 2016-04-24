@@ -8,11 +8,11 @@ import java.util.List;
  * by the clients and is composed of an Adaptee object instance. In this case, 
  * adaptation is achieved through composition.
  */
-public class ObjectAdapter implements TargetInterface {
+class ObjectAdapter implements TargetInterface {
 	
 	private Adaptee adaptee;
 	
-	public ObjectAdapter(Adaptee adaptee){
+	ObjectAdapter(Adaptee adaptee){
 		this.adaptee = adaptee;
 	}
 

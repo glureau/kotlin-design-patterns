@@ -5,7 +5,7 @@ package glureau.kdp.adapter.kotlin
  * the TargetInterface that is expected by the clients. In this case, adaptation
  * is achieved through inheritance.
  */
-internal class ClassAdapter(operand1: Double, operand2: Double) : Adaptee(operand1, operand2), TargetInterface {
+internal class OpenAdapter(operand1: Double, operand2: Double) : OpenAdaptee(operand1, operand2), TargetInterface {
 
     override val operands: List<Double>
         get() = arrayListOf(super.firstOperand, super.secondOperand)

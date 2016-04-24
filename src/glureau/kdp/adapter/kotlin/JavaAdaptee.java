@@ -1,14 +1,14 @@
-package glureau.kdp.adapter.java;
+package glureau.kdp.adapter.kotlin;
 
 /**
  * This is the "legacy" class that must be adapted to the target interface.
  */
-class Adaptee {
+class JavaAdaptee {
 	
 	private double operand1;
 	private double operand2;
 	
-	Adaptee(double operand1, double operand2) {
+	JavaAdaptee(double operand1, double operand2) {
 		this.operand1 = operand1;
 		this.operand2 = operand2;
 	}

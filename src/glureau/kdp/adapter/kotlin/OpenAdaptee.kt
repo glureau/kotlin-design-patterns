@@ -3,7 +3,7 @@ package glureau.kdp.adapter.kotlin
 /**
  * This is the "legacy" class that must be adapted to the target interface.
  */
-internal open class Adaptee(val firstOperand: Double, val secondOperand: Double) {
+internal open class OpenAdaptee(val firstOperand: Double, val secondOperand: Double) {
 
     fun computeSum(): Double {
         return firstOperand + secondOperand

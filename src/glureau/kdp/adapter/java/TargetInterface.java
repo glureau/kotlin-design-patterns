@@ -6,7 +6,7 @@ import java.util.List;
  * This is the interface that the clients expect. Therefore, the Adaptee class
  * must be adapted to this interface in order to be re-used by clients.
  */
-public interface TargetInterface {
+interface TargetInterface {
 	
 	List<Double> getOperands();
 	
